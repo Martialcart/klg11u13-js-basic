@@ -108,6 +108,24 @@ BONUS!
 
 */
 
+//oppgave1
+const butikknavn= "Brukt Frukt";
+console.log(butikknavn);
+
+let nEpler = 2000;
+console.log(nEpler);
+
+let open = false;
+console.log(open);
+
+let fruktutvalg = ["eple", "banan", "papaya", "vedum", "Jonas Gahr S"];
+console.log(fruktutvalg);
+
+
+//oppgave2
+
+function santa
+
 //Datatyper
 
 //Number, String, Boloeon
