@@ -166,3 +166,22 @@ let flightInfo = {
 // Argumenter vs parametre
 
 // Hvordan hente inn ting vi skal gjøre noe med
+const button = document.querySelector('#showBtn');
+const text = document.querySelector('#text');
+const toggle = document.querySelector('#toggleCont');
+const toggleCircle = document.querySelector('#toggleCircle');
+
+toggle.addEventListener('click', function () {
+  if(toggleCircle.classList.contains('move')) {
+    toggleCircle.classList.remove('move');
+    toggleCircle.classList.add('moveBack');
+  } else {
+    toggleCircle.classList.remove('moveBack');
+    toggleCircle.classList.add('move');
+  }
+});
+
+button.addEventListener('click', function () {
+  text.classList.toggle('showtextBox'); //toggle er en ny funksjon
+  text.classList.toggle('hiddenBox');
+});
