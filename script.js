@@ -110,22 +110,34 @@ BONUS!
 
 //oppgave1
 const butikknavn= "Brukt Frukt";
-console.log(butikknavn);
+console.log(`velkommen til ${butikknavn}`);
 
 let nEpler = 2000;
-console.log(nEpler);
+console.log(`Vi har ${nEpler} epler`);
 
 let open = false;
-console.log(open);
+console.log(`Butikken er nå ${open ? "åpen" : "stengt"}`);
 
 let fruktutvalg = ["eple", "banan", "papaya", "vedum", "Jonas Gahr S"];
-console.log(fruktutvalg);
+console.log(`vi kan skryte av å ha frukter som: ${fruktutvalg}`);
+
+function readOpen() {
+  if(open) return "åpen";
+   else return "stengt";
+   //return open ? "åpen" : "stengt";
+}
+
+let a = 30;
+let b = 20;
+console.log(`${a} pluss ${b} blir ${addNumbers(a,b)}`);
 
 
 //oppgave2
+function addNumbers(n1, n2) {
+  return n1 + n2;
+}
 
-function santa
-
+//oppgave3
 //Datatyper
 
 //Number, String, Boloeon
