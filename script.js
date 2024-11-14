@@ -109,6 +109,7 @@ BONUS!
 */
 
 //oppgave1
+//1.1-2
 const butikknavn= "Brukt Frukt";
 console.log(`velkommen til ${butikknavn}`);
 
@@ -121,11 +122,7 @@ console.log(`Butikken er nå ${open ? "åpen" : "stengt"}`);
 let fruktutvalg = ["eple", "banan", "papaya", "vedum", "Jonas Gahr S"];
 console.log(`vi kan skryte av å ha frukter som: ${fruktutvalg}`);
 
-function readOpen() {
-  if(open) return "åpen";
-   else return "stengt";
-   //return open ? "åpen" : "stengt";
-}
+//1.3 butikknavn er konst for den endres ikke
 
 let a = 30;
 let b = 20;
@@ -133,6 +130,8 @@ console.log(`${a} pluss ${b} blir ${addNumbers(a,b)}`);
 
 
 //oppgave2
+
+
 function addNumbers(n1, n2) {
   return n1 + n2;
 }
